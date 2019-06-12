@@ -1,1 +1,3 @@
 // Decent Tutorial: https://medium.com/@asankha/exposing-aws-lambda-functions-with-the-api-gateway-fbdc15c19dce
+
+curl -sD - -d '{"key1": "hello"}' https://omvdayb6j9.execute-api.aws.com/default/serverlessrepo-hello-world-helloworld-K74937ISFON8
